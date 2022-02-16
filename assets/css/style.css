@@ -118,6 +118,10 @@ li {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  #topbar .contact-info i a,
+  #topbar .contact-info i span {
+  font-size: 10px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1112,10 +1116,18 @@ section {
   .slide4 {
     width: 100%;
   }
+  #topbar .contact-info i a,
+  #topbar .contact-info i span {
+  font-size: 7.6px;
+}
 }
 
 /* nest hub */
 @media (min-width: 1024px) {
+  #topbar .contact-info i a,
+  #topbar .contact-info i span {
+  font-size: 15px;
+}
 }
 
 /*--------------------------------------------------------------
